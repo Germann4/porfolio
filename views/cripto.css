@@ -1,0 +1,302 @@
+.contai {
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    padding-left: .3rem;
+}
+img {
+    width: 56%;
+    margin-left: 4.6rem;
+}
+.eth img {
+    width: 86%;
+    margin-left: 1.4rem;
+}
+.decentraland img {
+    margin-top: .8rem;
+}
+.sol img,
+.doge img,
+.polygon img,
+.tron img,
+.avalanche img {
+    width: 50%;
+    margin-top: 1.6rem;
+}
+h2 {
+    color: #5467a0;
+    font-family: cursive;
+    text-align: center;
+    margin: 4px;
+}
+.btc,
+.eth,
+.sol,
+.doge,
+.polygon,
+.tron,
+.avalanche,
+.decentraland {
+    background-color: #072b9a;
+    border-radius: 3px;
+    margin-left: 1rem;
+    margin-top: .4rem;
+}
+.btc h2,
+.eth h2,
+.sol h2,
+.doge h2,
+.polygon h2,
+.tron h2,
+.avalanche h2,
+.decentraland h2 {
+    text-align: center;
+    color: #bddc31;
+}
+@media screen and (max-width: 1000px) {
+    .contai {
+        grid-template-columns: 300px 300px 300px;
+    }
+}
+@media screen and (max-width: 920px) {
+    .contai {
+        grid-template-columns: 280px 280px 280px;
+    }
+}
+@media screen and (max-width: 863px) {
+    .contai {
+        grid-template-columns: 270px 270px 270px;
+    }
+}
+@media screen and (max-width: 833px) {
+    .contai {
+        grid-template-columns: 260px 260px 260px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .contai {
+        grid-template-columns: 380px 380px;
+    }
+}
+@media screen and (max-width: 784px) {
+    .contai {
+        grid-template-columns: 370px 370px;
+    }
+}
+@media screen and (max-width: 764px) {
+    .contai {
+        grid-template-columns: 360px 360px;
+    }
+}
+@media screen and (max-width: 744px) {
+    .contai {
+        grid-template-columns: 350px 350px;
+    }
+}
+@media screen and (max-width: 724px) {
+    .contai {
+        grid-template-columns: 340px 340px;
+    }
+}
+@media screen and (max-width: 704px) {
+    .contai {
+        grid-template-columns: 330px 330px;
+    }
+}
+@media screen and (max-width: 682px) {
+    .contai {
+        grid-template-columns: 320px 320px;
+    }
+}
+@media screen and (max-width: 660px) {
+    .contai {
+        grid-template-columns: 600px;
+    }
+    .btc img,
+    .decentraland img {
+        margin-left: 7.6rem;
+    }
+    .eth img {
+        margin-left: 3rem;
+    }
+    .sol img,
+    .doge img,
+    .polygon img,
+    .tron img,
+    .avalanche img {
+        margin-left: 8.7rem;
+    }
+}
+@media screen and (max-width: 623px) {
+    .contai {
+        grid-template-columns: 580px;
+    }
+    .btc img,
+    .decentraland img {
+        margin-left: 7.6rem;
+    }
+    .eth img {
+        margin-left: 3rem;
+    }
+    .sol img,
+    .doge img,
+    .polygon img,
+    .tron img,
+    .avalanche img {
+        margin-left: 8.7rem;
+    }
+}
+@media screen and (max-width: 600px) {
+    .contai {
+        grid-template-columns: 560px;
+    }
+    .btc img,
+    .decentraland img {
+        margin-left: 7.6rem;
+    }
+    .eth img {
+        margin-left: 3rem;
+    }
+    .sol img,
+    .doge img,
+    .polygon img,
+    .tron img,
+    .avalanche img {
+        margin-left: 8.7rem;
+    }
+}
+@media screen and (max-width: 580px) {
+    .contai {
+        grid-template-columns: 540px;
+    }
+    .btc img,
+    .decentraland img {
+        margin-left: 7.6rem;
+    }
+    .eth img {
+        margin-left: 3rem;
+    }
+    .sol img,
+    .doge img,
+    .polygon img,
+    .tron img,
+    .avalanche img {
+        margin-left: 8.7rem;
+    }
+}
+@media screen and (max-width: 560px) {
+    .contai {
+        grid-template-columns: 520px;
+    }
+    .btc img,
+    .decentraland img {
+        margin-left: 7.6rem;
+    }
+    .eth img {
+        margin-left: 3rem;
+    }
+    .sol img,
+    .doge img,
+    .polygon img,
+    .tron img,
+    .avalanche img {
+        margin-left: 8.7rem;
+    }
+    h2 {
+        font-size: 1.1rem;
+    }
+}
+@media screen and (max-width: 540px) {
+    .contai {
+        grid-template-columns: 500px;
+    }
+    .btc img,
+    .decentraland img {
+        margin-left: 7rem;
+    }
+    .eth img {
+        margin-left: 3rem;
+    }
+    .sol img,
+    .doge img,
+    .polygon img,
+    .tron img,
+    .avalanche img {
+        margin-left: 8rem;
+    }
+}
+@media screen and (max-width: 520px) {
+    .contai {
+        grid-template-columns: 480px;
+    }
+    .btc img,
+    .decentraland img {
+        margin-left: 7rem;
+    }
+    .eth img {
+        margin-left: 3rem;
+    }
+    .sol img,
+    .doge img,
+    .polygon img,
+    .tron img,
+    .avalanche img {
+        margin-left: 8rem;
+    }
+}
+@media screen and (max-width: 500px) {
+    .contai {
+        grid-template-columns: 460px;
+    }
+    .btc img,
+    .decentraland img {
+        margin-left: 6.2rem;
+    }
+    .eth img {
+        margin-left: 2.3rem;
+    }
+    .sol img,
+    .doge img,
+    .polygon img,
+    .tron img,
+    .avalanche img {
+        margin-left: 7rem;
+    }
+}
+@media screen and (max-width: 480px) {
+    .contai {
+        grid-template-columns: 440px;
+    }
+    .btc img,
+    .decentraland img {
+        margin-left: 6.2rem;
+    }
+    .eth img {
+        margin-left: 2.3rem;
+    }
+    .sol img,
+    .doge img,
+    .polygon img,
+    .tron img,
+    .avalanche img {
+        margin-left: 7rem;
+    }
+}
+@media screen and (max-width: 460px) {
+    .contai {
+        grid-template-columns: 420px;
+    }
+    .btc img,
+    .decentraland img {
+        margin-left: 5.9rem;
+    }
+    .eth img {
+        margin-left: 2.3rem;
+    }
+    .sol img,
+    .doge img,
+    .polygon img,
+    .tron img,
+    .avalanche img {
+        margin-left: 7rem;
+    }
+}

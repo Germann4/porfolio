@@ -1,0 +1,1137 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+.container {
+    background-color: rgba(23, 15, 69, 0.9);
+    height: 100vh;
+}
+.initio p {
+    font-size: 1.4rem;
+    color: rgba(246, 246, 241, 0.8);
+    margin: 16px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.header ul {
+    margin: 0;
+    height: 100%;
+    display: inline-flex;
+    align-items: center;
+}
+.initio p:hover,
+.icon_porfolio img:hover {
+    transform: rotate(10deg);
+    transition: transform .3s ease-in-out;
+}
+.header ul li {
+    margin-left: 1rem;
+    list-style: none;
+    font-family: cursive;
+}
+.header ul li,
+.material-symbols-outlined,
+.arrow,
+.container_porfolio button {
+    cursor: pointer;
+}
+.header ul a {
+    color: #b9b5b5;
+    text-decoration: none;
+}
+.header ul a:hover {
+    background-color: #08140a;
+    transition: background-color .4s ease-in-out;
+}
+.header ul div {
+   width: 0%;
+   height: .4vh;
+   background-color: #154;
+   position: absolute;
+   top: 2.5rem;
+   margin-left: .9rem;  
+}
+@keyframes move {
+    0% {
+        width: 100%;
+    }
+    100% {
+        width: 80%;
+    }
+}
+.main_container_image {
+    width: 40%;
+    height: 64vh;
+    background-color: rgba(15, 7, 7, 0.6);
+    position: relative;
+    left: 16rem;
+    top: 4rem;
+    border-radius: 10px;
+}
+.main_container_image img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    left: -.2rem;
+    border-radius: 50%;
+}
+.containerImg {
+    border: 10px solid rgb(16, 15, 15);
+    width: 45%;
+    height: 26.5vh;
+    border-radius: 50%;
+    background-color: #b9b5b5;
+    position: relative;
+    left: 6rem;
+    top: 1.3rem;
+}
+.containerImg img {
+    height: 150px;
+}
+.conatiner_nameLastnameAndIcon {
+    font-size: 1.1rem;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #b9b5b5;
+    text-align: center;
+    margin-top: 2rem;
+}
+.conatiner_nameLastnameAndIcon h2,
+.conatiner_nameLastnameAndIcon h4 {
+    margin: .6rem;
+}
+.containerIcon {
+    position: relative;
+    top: .6rem;
+    left: 9.9rem;
+    width: 74%;
+    display: grid;
+    grid-template-columns: repeat(3,12%);
+    gap: 1rem;
+}
+.icon_porfolio {
+    width: 98.4vw;
+    height: 100vh;
+    margin: .2rem;
+    padding: 1rem;
+    background-color: rgba(37, 108, 90, 0.4);
+}
+.icon_porfolio img {
+    width: 20%;
+}
+.icon_porfolio img:nth-child(3) {
+    width: 18%;
+    margin-bottom: .4rem;
+}
+.icon_porfolio img:nth-child(5) {
+    width: 22%;
+    margin-top: .8rem;
+}
+.arrow {
+    position: sticky;
+    bottom: 10px;
+    width: 6.8%;
+    left: 100rem;
+    font-size: 3rem;
+    display: none;
+}
+.arrow div {
+    background-color: #b9b5b5;
+    border-radius: 50%;
+    text-align: center;
+}
+.arrow div:hover {
+    background-color: #eac9c9;
+}
+.container_porfolio {
+    width: 98vw;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #1125a6;
+}
+.container_porfolio div {
+    width: 40%;
+    height: 70vh;
+    border: thin solid black;
+    float: left;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    background-color: rgba(18, 5, 5, 0.4);
+}
+.container_porfolio h3 {
+    text-align: center;
+    font-size: 1.7rem;
+}
+.container_porfolio div button {
+    width: 30%;
+    height: 6vh;
+    background-color: #266730;
+    margin-left: 10rem;
+    border-color: rgba(10, 88, 10, 0.267);
+}
+.container_porfolio div button:hover {
+    box-shadow: .4rem .4rem #01040e;
+    transition: box-shadow .3s ease-in-out;
+} 
+.container_porfolio div {
+    box-shadow: 1rem 1rem 1rem #03071c;
+    border-radius: 4px;
+}
+.container_porfolio div a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #b9b5b5;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container_porfolio div img {
+    width: 48%;
+    position: relative;
+    left: 24%;
+}
+.container_porfolio div + div img {
+    width: 46%;
+    left: 24%;
+}
+.container_porfolio div + div button {
+    position: relative;
+    top: 1.7rem;
+}
+.container_porfolio div h3 {
+    color: #938c8c;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+@media screen and (max-width: 1000px) {
+    .arrow {
+        right: 0px;
+        font-size: 2.9rem;
+        bottom: 10px;
+        width: 8.6%;
+    }
+    .container_porfolio div button {
+           margin-left: 7.6rem;
+    }
+    .container_porfolio div + div button {
+        width: 8rem;
+    }
+    .main_container_image {
+        width: 50%;
+    }
+    .containerImg {
+        left: 7rem;
+        width: 40%;
+    }
+}
+@media screen and (max-width: 972px) {
+    .containerIcon {
+        left: 9rem;
+    }
+}
+@media screen and (max-width:957px) {
+    .arrow {
+        font-size: 2.9rem;
+        bottom: 60px;
+        width: 9%;
+    }
+}
+@media screen and (max-width:947px) {
+    .container_porfolio div button {
+        height: 8vh;
+        margin-top: 1.6rem;
+    }
+}
+@media screen and (max-width:907px) {
+    .container_porfolio div button {
+        margin-left: 7rem;
+    }
+    .container_porfolio div + div button {
+        margin-left: 6rem;   
+    }
+}
+.hamburger-button {
+    position: relative;
+    top: -3rem;
+    width: 6%;
+    display: none;
+    left: 48rem;
+    cursor: pointer;
+    z-index: 1000;
+}
+.window {
+    position: absolute;
+    top: 0rem;
+    right: 0rem;
+    background-color:rgb(0, 0, 0, .4);
+    width: 100%;
+    height: 0;
+    transition: height 1s ease-in-out;
+}
+.window ul {
+    position: absolute;
+    bottom: 2rem;
+}
+.window ul li {
+    list-style: none;
+    font-size: 1.3rem;
+    margin-left: 22.7rem;
+}
+
+.window ul a {
+    color: aliceblue;
+    text-decoration: none;
+    font-family: cursive;
+}
+.visibly {
+    visibility: visible;
+    transition: height 1s ease-in-out;
+}
+.height {
+    height: 10rem;
+}
+@media screen and (max-width:890px) {
+   .menu {
+      visibility: hidden;
+   }
+   .hamburger-button  {
+      display: block;
+   }
+  .container {
+    width: 900px;
+  }
+  .icon_porfolio {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+    }
+    .icon_porfolio img {
+        width: 54%;
+        margin-left: 1.6rem;
+  }
+  .icon_porfolio img:nth-child(3) {
+    width: 44%;
+    margin-bottom: .4rem;
+  }
+  .icon_porfolio img:nth-child(5) {
+    width: 58%;
+    margin-top: .8rem;
+  }
+  .icon_porfolio img:nth-child(7) {
+    width: 66%;
+    margin-top: -1.8rem;
+  }
+  .icon_porfolio img:nth-child(8) {
+    width: 63%;
+    margin-top: -2.8rem;
+  }
+  .arrow {
+    font-size: 2.6rem;
+    bottom: 60px;
+    width: 8.6%;
+  }
+  .main_container_image {
+      top: 2rem;
+      width: 41%;
+  }
+  .main_container_image img {
+      left: 2.7rem;
+  }
+  .containerIcon {
+      left: 6.4rem;
+  }
+  .containerImg img {
+      left: -.2rem; 
+  }
+  .window {
+    left: .1rem;
+  }
+}
+@media screen and (max-width:830px) {
+    .container_porfolio div button {
+        margin-left: 6.6rem;
+    }
+    .hamburger-button {
+        left: 46rem;
+    }
+    .main_container_image img {
+        left: 2rem;
+    }
+    .containerIcon img {
+        margin-left: 1rem;
+    }
+    .containerImg img {
+        left: -.4rem; 
+    }
+    .arrow {
+        width: 9.2%;
+    }
+}
+@media screen and (max-width:800px) {
+    .container_porfolio div button {
+        margin-left: 6.2rem;
+    }
+    .container_porfolio div + div button {
+        margin-left: -4rem;
+        top: 5rem;
+    }
+    .hamburger-button {
+        left: 45rem;
+    }
+    .initio p {
+        margin-left: -7rem;
+    }
+}
+@media screen and (max-width: 780px) {
+    .hamburger-button {
+        left: 43rem;
+    }
+    .main_container_image {
+        margin-left: -4rem;
+    }
+    .main_container_image img {
+        left: 1rem;
+    }
+    .containerIcon img {
+        margin-left: 1.3rem;
+    }
+    .containerImg img {
+        margin-left: -.8rem;
+    }
+   
+}
+@media screen and (max-width:760px) {
+    .arrow {
+        font-size: 2.9rem;
+        bottom: 60px;
+        width: 11%;
+    }
+    .container_porfolio div button {
+        margin-left: 5.9rem;
+        height: 7vh;
+    }
+    .container_porfolio div button a {
+        font-size: .9rem;
+    }
+    .main_container_image img {
+        width: 70%;
+    }
+    .hamburger-button {
+        left: 41rem;
+    }
+    .containerImg img {
+        margin-left: -1rem;
+        width: 100%;
+    }
+    .containerIcon {
+        width: 90%;
+    }
+}
+@media screen and (max-width:736px) {
+    .main_container_image {
+        margin-left: -4rem;   
+    }
+}
+@media screen and (max-width: 715px) {
+    .hamburger-button {
+        left: 38rem;
+    }
+    .main_container_image img {
+        width: 66%;
+    }
+    .containerImg img {
+        margin-left: -.9rem;
+        width: 100%;
+    }
+    .arrow {
+        font-size: 2.6rem;
+        bottom: 60px;
+        width: 11.2%;
+    }
+}
+@media screen and (max-width:700px) {
+    .container_porfolio div button {
+        margin-left: 5.4rem;
+        height: 7vh;
+    }
+    .container_porfolio div button a {
+        font-size: 1rem;
+    }
+    .main_container_image img {
+        left: .1rem;
+    }
+    .containerImg {
+        left: 6rem;
+    }
+    .containerImg img {
+        margin-left: -.3rem;
+        width: 100%;
+    }
+    .containerIcon img {
+        margin-left: 3rem; 
+    }
+    .window ul {
+        margin-left: -1.8rem;
+    }
+}
+@media screen and (max-width: 680px) {
+    .icon_porfolio {
+        height: 1000px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 260px);
+        margin-left: 0rem;
+    }
+    .arrow {
+        left: 33rem;
+        font-size: 3rem;
+        bottom: 60px;
+        width: 11.8%;
+    }
+    .container_porfolio div {
+        height: 51vh;
+    }
+    .container_porfolio div button {
+        margin-left: 5.2rem;
+        height: 7vh;
+    }
+    .container_porfolio div h3 {
+        font-size: 1.4rem;
+    }
+    .container_porfolio div button a {
+        font-size: 1rem;
+    }
+    .containerImg {
+        left: 6.2rem;
+        width: 43%;
+    }
+    .containerImg img {
+        margin-left: -.3rem;
+    }
+    .main_container_image img {
+        left: .1rem;
+    }
+    .hamburger-button {
+        left: 37rem;
+    }
+    .window ul {
+        margin-left: -6rem;
+    }
+    .icon_porfolio img {
+        width: 54%;
+    }
+    .icon_porfolio img:nth-child(3) {
+        width: 40%;
+        margin-left: 4rem;
+    }
+    .icon_porfolio img:nth-child(5) {
+        width: 60%;
+    }
+    .icon_porfolio img:nth-child(7) {
+        width: 50%;
+        margin-left: 3rem;
+    }
+    .icon_porfolio img:nth-child(8) {
+        width: 60%;
+        margin-left: 1rem;
+        margin-top: -3rem;
+    }
+    .containerIcon {
+        left: 6.6rem;
+    }
+    .container_porfolio div + div button {
+        top: 4rem;
+    }
+}
+@media screen and (max-width: 650px) {
+    .hamburger-button {
+        left: 35rem;
+    }
+    .main_container_image {
+        margin-left: -7rem;
+    }
+    .arrow {
+        font-size: 2.6rem;
+        bottom: 60px;
+        width: 12.3%;
+    }
+    .containerImg {
+        width: 43%;
+    }
+}
+@media screen and (max-width: 630px) {
+    .hamburger-button {
+        left: 34rem;
+    }
+    .main_container_image {
+        margin-left: -8.6rem;
+    }
+}
+@media screen and (max-width: 615px) {
+    .hamburger-button {
+        left: 33rem;
+    }
+}
+@media screen and (max-width: 600px) {
+    .container_porfolio div button {
+        margin-left: 4.6rem;
+        height: 7vh;
+    }
+    .container_porfolio div button a {
+        font-size: 1rem;
+    }
+    .hamburger-button {
+        left: 32rem;
+    }
+    .main_container_image {
+        margin-left: -11rem;
+    }
+}
+@media screen and (max-width: 580px) {
+    .icon_porfolio {
+        margin-left: 0rem;
+        height: 1000px;
+    }
+    .icon_porfolio img {
+        width: 56%;
+        margin-left: 4rem;
+    }
+    .icon_porfolio img:nth-child(3) {
+        width: 44%;
+        margin-bottom: .4rem;
+    }
+    .icon_porfolio img:nth-child(5) {
+        width: 58%;
+        margin-top: .8rem;
+    }
+    .arrow {
+        left: 0;
+        font-size: 2.9rem;
+        bottom: 60px;
+        width: 13.3%;
+    }
+    .hamburger-button {
+        left: 30.6rem;
+        width: 6%;
+    }
+    .main_container_image {
+        margin-left: -12rem;
+        width: 42%;
+    }
+    .window ul {
+        margin-left: -7rem;
+    }
+}
+@media screen and (max-width: 560px) {
+    .hamburger-button {
+        left: 29rem;
+    }
+}
+@media screen and (max-width: 546px) {
+    .arrow {
+        left: 0rem;
+        font-size: 3rem;
+        bottom: 60px;
+        width: 17%;
+    }
+    .container_porfolio {
+        height: 880px;
+    }
+    .container_porfolio div  {
+        float: none;
+        margin-top: .9rem;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .container_porfolio div button {
+        margin-left: -3.5rem;
+        height: 6vh;
+    }
+    .icon_porfolio {
+        height: 3600px;
+        display: grid;
+        grid-template-columns: repeat(1, 700px);
+        grid-template-rows: repeat(8,460px);
+    }
+    .icon_porfolio img:nth-child(3) {
+        margin-left: 6.8rem;
+    }
+    .icon_porfolio img:nth-child(7) {
+        margin-left: 6rem;
+    }
+    .icon_porfolio img:nth-child(8) {
+        width: 63%;
+        margin-left: 2.8rem;
+        margin-top: -14rem;
+    }
+    .hamburger-button {
+        left: 29rem;
+        width: 6%;
+    }
+    .container_porfolio div + div button {
+        top: 2.4rem;
+    }
+    
+}
+@media screen and (max-width: 532px) {
+    .hamburger-button {
+        left: 28rem;
+        width: 6%;
+    }
+    .window ul {
+        margin-left: -10rem;
+    }
+    .main_container_image {
+        width: 44%;
+        left: 14rem;
+    }
+    .hamburger-button {
+        left: 27rem;
+    }
+    .containerIcon {
+        left: 6.4rem;
+    }
+}
+@media screen and (max-width: 497px) {
+    .container_porfolio div button  {
+        margin-left: 6.7rem;
+        height: 7vh;
+    }
+    .container_porfolio .btn-game {
+        position: relative;
+        top: -2rem;
+    }
+    .container_porfolio div + div button {
+        top: 3rem;
+    }
+    .container_porfolio div button a {
+        font-size: 1rem;
+    }
+    .hamburger-button {
+        left: 26rem;
+    }
+    .main_container_image {
+        width: 44%;
+        margin-left: -12rem;
+    }
+    .arrow {
+        font-size: 2.6rem;
+        bottom: 60px;
+        width: 14%;
+      }
+}
+@media screen and (max-width: 470px) {
+     .main_container_image {
+        margin-left: -10.4rem;
+     }
+     .containerIcon {
+        margin-left: -.7rem;
+     }
+      .icon_porfolio img {
+        width: 50%;
+      }
+      .icon_porfolio {
+        height: 3700px;
+      }
+      .icon_porfolio img:nth-child(3) {
+        width: 44%;
+        margin-left: 6rem;
+        margin-bottom: .4rem;
+      }
+      .icon_porfolio img:nth-child(5) {
+        width: 50%;
+        margin-top: .8rem;
+      }
+      .icon_porfolio img:nth-child(7) {
+        width: 48%;
+      }
+      .icon_porfolio img:nth-child(8) {
+        width: 48%;
+        margin-left: 4.8rem;
+      }
+      .arrow {
+        position: sticky;
+        bottom: 10px;
+        width: 19%;
+        left: 0rem;
+        font-size: 3rem;
+        display: none;
+    }
+      .hamburger-button {
+        left: 24rem;
+      }
+      .window ul {
+        margin-left: -11rem;
+    }
+      
+}
+@media screen and (max-width: 446px) {
+    .window ul {
+        margin-left: -13rem;
+    }
+    .main_container_image {
+        width: 40%;
+        margin-left: -12rem;
+    }
+    .hamburger-button {
+        width: 5.4%;
+        left: 23rem;
+    }
+    .containerIcon img {
+        margin-left: 3rem;
+    }
+    .containerImg {
+        margin-left: -1rem;
+    }
+    .initio p {
+        margin-left: -4rem; 
+    }
+    .arrow {
+        font-size: 2.6rem;
+        bottom: 60px;
+        width: 14%;
+      }
+      .container_porfolio {
+        height: 760px;
+    }
+    .window {
+        left: .1rem;
+    }
+}
+@media screen and (max-width: 442px) {
+    .main_container_image {
+        margin-left: -12.3rem;
+    }
+    .containerIcon img {
+        margin-left: 2rem;
+    }
+    .window {
+        left: .1rem;
+    }
+      .icon_porfolio img {
+        width: 44%;
+    }
+      .icon_porfolio {
+        height: 3400px;  
+    }
+      .icon_porfolio img:nth-child(3) {
+        width: 37%;
+        margin-left: 4.7rem;
+        margin-bottom: .4rem;
+    }
+      .icon_porfolio img:nth-child(5) {
+        width: 47%;
+        margin-top: .8rem;
+    }
+      .icon_porfolio img:nth-child(7) {
+        width: 42%;
+        margin-left: 4.7rem;
+    }
+      .container_porfolio div:nth-child(1) button {
+        margin: .6rem 1 0 -3.2rem;
+    }
+    .container_porfolio div + div button {
+        margin: 0 0 0 -4rem;
+    }
+    .arrow {
+        width: 17%;
+    }
+}
+@media screen and (max-width: 422px) {
+    .window ul {
+        margin-left: -13rem;
+    }
+    .main_container_image {
+        width: 37%;
+        margin-left: -11rem;
+    }
+    .hamburger-button {
+        width: 4.9%;
+        left: 22rem;
+    }
+    .initio p {
+        margin-left: -8rem;
+    }
+    .containerIcon {
+        grid-template-columns: repeat(3,14%);
+    }
+    .containerIcon img {
+        left: .1rem;
+    }
+    .arrow {
+        width: 18%;
+    }
+    .container_porfolio {
+        height: 980px;
+    }
+    .container_porfolio div:nth-child(1) button {
+        margin: 3rem 0 0 5.8rem;
+    }
+    .container_porfolio div + div button {
+        margin: -4rem 0 0 4.6rem;
+    }
+    .window {
+        left: .1rem;
+    }
+}
+@media screen and (max-width: 400px) {
+    .window ul {
+        margin-left: -14rem;
+    }
+    .main_container_image {
+        width: 30%;
+        margin-left: -9rem;
+    }
+    .hamburger-button {
+        width: 4.9%;
+        left: 20rem;
+    }
+    .containerImg {
+        left: 4rem;
+        width: 60%;
+    }
+    .icon_porfolio img {
+        width: 44%;
+      }
+    .containerIcon {
+        grid-template-columns: repeat(3,16%);
+    }
+    .containerIcon img {
+        left: -2.3rem;
+    }
+    .icon_porfolio img {
+        width: 40%;
+    }
+    .icon_porfolio {
+        height: 2900px;  
+    }
+      .icon_porfolio img:nth-child(3) {
+        width: 37%;
+        margin-left: 4rem;
+        margin-bottom: .4rem;
+    }
+      .icon_porfolio img:nth-child(5) {
+        width: 40%;
+        margin-top: .8rem;
+    }
+    .icon_porfolio img:nth-child(7) {
+        width: 38%;
+        margin-top: .8rem;
+        margin-left: 3rem;
+    }
+    .icon_porfolio img:nth-child(8) {
+        width: 38%;
+        margin-top: .8rem;
+        margin-left: 3rem;
+    }
+    .window {
+        left: .1rem;
+    }
+    .icon_porfolio {
+        height: 3600px;
+    }
+    .container_porfolio div:nth-child(1) button {
+        margin: 3rem 0 0 5.6rem;
+    }
+    .container_porfolio div + div button {
+        margin: -3rem 0 0 3.6rem;
+    }
+    .container_porfolio {
+        height: 760px;
+    }
+}
+@media screen and (max-width: 394px) {
+    .container_porfolio {
+        height: 1000px;
+    }
+}
+@media screen and (max-width: 372px) {
+    .arrow {
+        width: 22%;
+    }
+    .window ul {
+        margin-left: -14.8rem;
+    }
+    .main_container_image {
+        width: 30%;
+        margin-left: -10.8rem;
+    }
+    .hamburger-button {
+        width: 4.9%;
+        left: 19rem;
+    }
+    .containerImg {
+        left: 5rem;
+    }
+    .containerIcon {
+        grid-template-columns: repeat(3,16%);
+    }
+    .containerIcon img {
+        left: -2.3rem;
+    }
+    .icon_porfolio img {
+        width: 29%;
+    }
+    .icon_porfolio {
+        height: 2900px;  
+    }
+      .icon_porfolio img:nth-child(3) {
+        width: 27%;
+        margin-left: 4rem;
+        margin-bottom: .4rem;
+    }
+      .icon_porfolio img:nth-child(5) {
+        width: 30%;
+        margin-top: .8rem;
+    }
+    .icon_porfolio img:nth-child(7) {
+        width: 29%;
+        margin-top: .8rem;
+        margin-left: 3rem;
+    }
+    .icon_porfolio img:nth-child(8) {
+        width: 29%;
+        margin-top: .8rem;
+        margin-left: 3rem;
+    }
+    .window {
+        left: .1rem;
+    }
+    .icon_porfolio {
+        height: 3600px;
+    }
+    .container_porfolio {
+        height: 760px;
+    }
+    .container_porfolio div img {
+        margin-left: 1.3rem;
+    }
+    .container_porfolio div:nth-child(1) button {
+        margin: 1rem 0 0 6.4rem;
+    }
+    .container_porfolio div + div button {
+        margin: -1rem 0 0 5rem;
+    }
+}
+@media screen and (max-width: 352px) {
+    .window ul {
+        margin-left: -15rem;
+    }
+    .main_container_image {
+        width: 30%;
+        margin-left: -12rem;
+    }
+    .hamburger-button {
+        width: 4.9%;
+        left: 17.4rem;
+    }
+    .containerImg {
+        left: 4rem;
+    }
+    .containerIcon {
+        grid-template-columns: repeat(3,16%);
+    }
+    .containerIcon img {
+        left: -2.3rem;
+    }
+    .icon_porfolio img {
+        width: 29%;
+    }
+    .icon_porfolio {
+        height: 3600px;  
+    }
+    .icon_porfolio img:nth-child(3) {
+        width: 28%;
+        margin-left: 4rem;
+        margin-bottom: .4rem;
+    }
+    .icon_porfolio img:nth-child(5) {
+        width: 28%;
+        margin-top: .8rem;
+    }
+    .icon_porfolio img:nth-child(7) {
+        width: 28%;
+        margin-top: .8rem;
+        margin-left: 3rem;
+    }
+    .icon_porfolio img:nth-child(8) {
+        width: 28%;
+        margin-top: .8rem;
+        margin-left: 3rem;
+    }
+}
+@media screen and (max-width: 332px) {
+    .window ul {
+        margin-left: -17rem;
+    }
+    .main_container_image {
+        width: 30%;
+        margin-left: -12.7rem;
+    }
+    .hamburger-button {
+        width: 4.4%;
+        left: 16.7rem;
+    }
+    .containerImg {
+        left: 5rem;
+    }
+    .containerIcon {
+        grid-template-columns: repeat(3,16%);
+    }
+    .containerIcon img {
+        left: -2.3rem;
+    }
+}
+@media screen and (max-width: 317px) {
+    .window ul {
+        margin-left: -17rem;
+    }
+    .main_container_image {
+        width: 30%;
+        margin-left: -13rem;
+    }
+    .hamburger-button {
+        width: 4.4%;
+        left: 16rem;
+    }
+    .containerImg {
+        left: 5rem;
+    }
+    .containerIcon {
+        grid-template-columns: repeat(3,16%);
+    }
+    .containerIcon img {
+        left: -2.3rem;
+    }
+}
+@media screen and (max-width: 300px) {
+    .window ul {
+        margin-left: -17rem;
+    }
+    .main_container_image {
+        width: 27%;
+        margin-left: -13rem;
+    }
+    .main_container_image img {
+        margin-left: 1.2rem;
+    }
+    .hamburger-button {
+        width: 4.4%;
+        left: 14rem;
+    }
+    .containerImg {
+        left: 5rem;
+    }
+    .containerIcon {
+        grid-template-columns: repeat(3,19%);
+        margin-left: -.9rem;
+    }
+    .containerIcon img {
+        left: -2.3rem;
+    }
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    animation: move 1.4s forwards ease-in-out;
+    background-color: rgb(216, 205, .4);
+    overflow-x: hidden;
+}

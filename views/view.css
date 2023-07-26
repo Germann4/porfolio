@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+}
+.Container_signUp_And_Signin {
+    width: 100%;
+    background-color: #272424;
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: 300px 400px;
+}
+.Container_signUp_And_Signin ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 2rem;
+}
+.Container_signUp_And_Signin ul a {
+    color: #ffffff;
+    text-decoration: none;
+} 
+.Container_signUp_And_Signin h3 {
+    color: #ffff;
+}
+
+@media screen and (max-width: 800px) {
+    .Container_signUp_And_Signin h3 {
+        font-size: 1rem;
+    }
+    .Container_signUp_And_Signin {
+        display: grid;
+        justify-content: space-around;
+        grid-template-columns: 200px 300px;
+    }
+    
+}
+@media screen and (max-width: 600px) {
+    .Container_signUp_And_Signin h3 {
+        font-size: 1rem;
+    }
+    .Container_signUp_And_Signin ul li {
+        font-size: .9rem;
+    }
+}
+@media screen and (max-width: 508px) {
+    .Container_signUp_And_Signin h3 {
+        font-size: .9rem;
+    }
+    .Container_signUp_And_Signin ul {
+        font-size: .9rem;
+        margin-left: 3rem;
+    }
+    .Container_signUp_And_Signin ul li {
+        font-size: .9rem;
+        margin-left: .8rem;
+    }
+    .Container_signUp_And_Signin {
+        display: grid;
+        justify-content: space-around;
+        grid-template-columns: 180px 300px;
+    }
+    
+}
+@media screen and (max-width: 482px) {
+    .Container_signUp_And_Signin h3 {
+        margin-left: 1rem;
+        width: 100%;
+    }
+    .Container_signUp_And_Signin ul {
+        font-size: .9rem;
+        margin-left: 3rem;
+    }
+    .Container_signUp_And_Signin ul li {
+        font-size: .9rem;
+        margin-left: .8rem;
+    }
+    
+}
+@media screen and (max-width: 460px) {
+    .Container_signUp_And_Signin h3 {
+        margin-left: 1.6rem;
+        width: 100%;
+    }
+    .Container_signUp_And_Signin ul {
+        font-size: .9rem;
+        margin-left: 3rem;
+    }
+    .Container_signUp_And_Signin ul li {
+        font-size: .9rem;
+        margin-left: .8rem;
+    }
+    
+}
+@media screen and (max-width: 430px) {
+    .Container_signUp_And_Signin h3 {
+        margin-left: 2.6rem;
+        width: 100%;
+    }
+    .Container_signUp_And_Signin ul {
+        font-size: .9rem;
+        margin-left: 3rem;
+    }
+    .Container_signUp_And_Signin ul li {
+        font-size: .9rem;
+        margin-left: .8rem;
+    }
+    
+}
+@media screen and (max-width: 400px) {
+    .Container_signUp_And_Signin h3 {
+        margin-left: 3.6rem;
+        width: 100%;
+    }
+    .Container_signUp_And_Signin ul {
+        font-size: .7rem;
+        margin-left: 3rem;
+        margin-top: 1rem;
+    }
+    .Container_signUp_And_Signin ul li {
+        font-size: .8rem;
+        margin-left: .3rem;
+    }
+    
+}
+@media screen and (max-width: 400px) {
+    .Container_signUp_And_Signin h3 {
+        margin-left: 4.1rem;
+        width: 100%;
+    }
+    .Container_signUp_And_Signin ul {
+        font-size: .7rem;
+        margin-left: 3rem;
+        margin-top: 1rem;
+    }
+    .Container_signUp_And_Signin ul li {
+        font-size: .8rem;
+        margin-left: .3rem;
+    }
+    
+}

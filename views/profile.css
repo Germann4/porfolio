@@ -1,0 +1,206 @@
+body {
+    margin: 0;
+    background-color: #d5f9e9;
+}
+.Profile_container {
+    background-color: #272424;
+    display: grid;
+    grid-template-columns: 300px 300px;
+    justify-content: space-around;
+}
+.Profile_container ul li {
+    list-style: none;
+}
+.Profile_container ul a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.Profile_container article h3 {
+    color: #ffff;
+}
+.btc,
+.eth,
+.sol,
+.doge,
+.polygon,
+.avalanche,
+.tron,
+.decentraland {
+    width: 100%;
+    outline: #686363 solid .1px;
+    box-shadow: 1rem .6rem #181616;
+    margin: .6rem;
+}
+.btc:hover,
+.eth:hover,
+.sol:hover,
+.doge:hover,
+.polygon:hover,
+.avalanche:hover,
+.tron:hover,
+.decentraland:hover {
+    box-shadow: 0 0;
+    transition: box-shadow 1s ease-in-out;
+}
+.contai {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    gap: 3rem;
+}
+.btc img,
+.eth img,
+.sol img {
+    width: 70%;
+    margin-left: 3rem;
+}
+.eth img {
+    width: 96%;
+    margin-left: 1rem;
+}
+.sol img,
+.doge img,
+.polygon img,
+.avalanche img,
+.tron img,
+.decentraland img {
+    width: 54%;
+    margin: .6rem 0 2rem 4rem;
+}
+.btc h2,
+.decentraland h2,
+.tron h2,
+.text_btc,
+.text_decentraland,
+.avalanche h2,
+.text_doge,
+.text_polygon,
+.text_tron,
+.wentUpDoge,
+.wentUp,
+.wentUpAvalanche,
+.wentUpDecentraland,
+.text_avalanche,
+.wentUpTron,
+.initial_release_btc,
+.initial_release_tron,
+.initial_release_decentraland,
+.eth h2,
+.sol h2,
+.doge h2,
+.polygon h2,
+.wentUpEth,
+.wentUpSol,
+.wentUpPolygon,
+.text_sol,
+.text_eth,
+.text_avalanche,
+.initial_release_eth,
+.initial_release_sol,
+.initial_release_doge,
+.initial_release_polygon,
+.initial_release_avalanche {
+   text-align: center;
+   margin-top: -1rem;
+   font-family:cursive;
+}
+@media screen and (max-width: 1000px) {
+    .contai {
+        grid-template-columns: 400px 400px;
+    }   
+}
+@media screen and (max-width: 890px) {
+    .contai {
+        grid-template-columns: 340px 340px;
+    }   
+}
+@media screen and (max-width: 767px) {
+    .contai {
+        grid-template-columns: 300px 300px;
+    }   
+}
+@media screen and (max-width: 688px) {
+    .contai {
+        grid-template-columns: 260px 260px;
+    }   
+}
+@media screen and (max-width: 610px) {
+    .contai {
+        grid-template-columns: 230px 230px;
+    }   
+    .Profile_container article h3 {
+        margin-left: 3rem;
+    }
+    .Profile_container ul a {
+        font-size: .9rem;
+    }
+}
+@media screen and (max-width: 547px) {
+    .contai {
+        grid-template-columns: 420px;
+    }   
+    .Profile_container article h3 {
+        margin-left: 4.9rem;
+        width: 100%;
+    }
+    .Profile_container ul li {
+        margin-top: 1.3rem;
+    }
+}
+@media screen and (max-width: 467px) {
+    .contai {
+        grid-template-columns: 360px;
+    }  
+    .Profile_container article h3 {
+        margin-left: 6.4rem;
+        width: 100%;
+    }
+    .Profile_container ul li {
+        margin-top: 1.3rem;
+        margin-left: 2rem;
+    }
+}
+@media screen and (max-width: 413px) {
+    .contai {
+        grid-template-columns: 330px;
+    }  
+    .Profile_container article h3 {
+        margin-left: 7.4rem;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 387px) {
+    .contai {
+        grid-template-columns: 310px;
+    }  
+    .Profile_container article h3 {
+        margin-left: 8rem;
+        margin-top: 1.2rem;
+        font-size: 1rem;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 362px) {
+    .contai {
+        grid-template-columns: 300px;
+    }  
+    .Profile_container article h3 {
+        margin-left: 8.8rem;
+        margin-top: 1.2rem;
+        font-size: .9rem;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 337px) {
+    .contai {
+        grid-template-columns: 280px;
+    }  
+    .Profile_container article h3 {
+        margin-left: 9.7rem;
+        margin-top: 1.2rem;
+        font-size: .9rem;
+        width: 100%;
+    }
+    .Profile_container ul a {
+        margin-left: -1rem;
+    }
+}
