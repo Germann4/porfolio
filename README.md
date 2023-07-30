@@ -1,4 +1,4 @@
 
 ##Portfolio
 
-Proyecto pagina web que muetsra habilidades y portfolio.
+Proyecto pagina web que muestra habilidades y portfolio.
